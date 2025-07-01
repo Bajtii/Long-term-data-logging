@@ -1,10 +1,11 @@
-🔌 EnergyMonitorC3
+**🔌 EnergyMonitorC3**
 
 Station C3 – Monitoring the Polish Power Grid
+
 Web scraping of live energy data from https://www.pse.pl and periodic publishing to an MQTT broker for further analysis.
 
 
-📌 Project Overview
+**📌 Project Overview**
 
 This project automates the retrieval of real-time power grid data from the Polish transmission system operator (PSE) using web scraping techniques. The extracted data is periodically sent to an MQTT broker, allowing other systems or applications to consume and analyze it.
 
@@ -21,20 +22,20 @@ Data collected from PSE:
 -Cross-border power exchange balance (import/export)
 
 
-⚙️ Technologies Used
+**⚙️ Technologies Used**
 
--C++17
+C++17
 
--cURL – for fetching data from the PSE API
+cURL – for fetching data from the PSE API
 
--nlohmann/json – for JSON parsing
+nlohmann/json – for JSON parsing
 
--Eclipse Paho MQTT – for MQTT communication
+Eclipse Paho MQTT – for MQTT communication
 
--Multithreading & synchronization – semaphores and timers used to control task execution
+Multithreading & synchronization – semaphores and timers used to control task execution
 
 
-🛠️ How It Works
+**🛠️ How It Works**
 
 1. A timer triggers the data retrieval task at a fixed interval (every 10 seconds). 
 2. Data is fetched from: https://www.pse.pl/transmissionMapService
@@ -46,7 +47,7 @@ Data collected from PSE:
 4. A semaphore ensures synchronization between data reading and sending tasks.
 
 
-📤 Example MQTT Payload
+**📤 Example MQTT Payload**
 
 {
   "zapotrzebowanie": 22850,
@@ -67,7 +68,7 @@ Data collected from PSE:
 }
 
 
-🚀 Getting Started
+**🚀 Getting Started**
 
 Requirements:
 
