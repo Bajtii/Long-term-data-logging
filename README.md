@@ -1,4 +1,5 @@
 🔌 EnergyMonitorC3
+
 Station C3 – Monitoring the Polish Power Grid
 Web scraping of live energy data from https://www.pse.pl and periodic publishing to an MQTT broker for further analysis.
 
