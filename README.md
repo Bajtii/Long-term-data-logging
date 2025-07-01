@@ -36,17 +36,14 @@ Data collected from PSE:
 
 🛠️ How It Works
 
-1. A timer triggers the data retrieval task at a fixed interval (every 10 seconds).
-2. 
-3. Data is fetched from: https://www.pse.pl/transmissionMapService
-4. 
-5. Once received, the data is:
-6. 
+1. A timer triggers the data retrieval task at a fixed interval (every 10 seconds). 
+2. Data is fetched from: https://www.pse.pl/transmissionMapService
+3. Once received, the data is:
 -Parsed and filtered,
 -Displayed in the console,
 -Sent to an MQTT broker (pscr/c3) in JSON format.
 
-8. A semaphore ensures synchronization between data reading and sending tasks.
+4. A semaphore ensures synchronization between data reading and sending tasks.
 
 
 📤 Example MQTT Payload
