@@ -34,7 +34,6 @@ This project automates the retrieval of real-time power grid data from [PSE](htt
 
 
 
----
 
 
 
