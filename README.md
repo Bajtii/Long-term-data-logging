@@ -1,4 +1,4 @@
-# 🔌 EnergyMonitorC3
+# 🔌 EnergyMonitor
 
 **Station C3 – Monitoring the Polish Power Grid**
 
