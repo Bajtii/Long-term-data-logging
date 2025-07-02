@@ -4,6 +4,9 @@
 
 EnergyMonitorC3 is a C++17 application that automatically retrieves energy data from the Polish transmission system operator (PSE) via web scraping and API calls, then periodically publishes it to an MQTT broker for further analysis and integration with other systems.
 
+![502359351_723755900233266_6049420861785047549_n](https://github.com/user-attachments/assets/cb8f6167-a632-47b6-8588-c687bdbb42c0)
+
+
 ---
 
 ## 📌 Project Overview
