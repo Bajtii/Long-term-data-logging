@@ -1,30 +1,51 @@
-**🔌 EnergyMonitorC3**
+# 🔌 EnergyMonitorC3
 
-Station C3 – Monitoring the Polish Power Grid
+**Station C3 – Monitoring the Polish Power Grid**
 
-Web scraping of live energy data from https://www.pse.pl and periodic publishing to an MQTT broker for further analysis.
+EnergyMonitorC3 is a project that scrapes live energy data from the Polish transmission system operator (PSE) website and periodically publishes the collected data to an MQTT broker for further analysis and integration with other systems.
 
+---
 
-**📌 Project Overview**
+## 📌 Project Overview
 
-This project automates the retrieval of real-time power grid data from the Polish transmission system operator (PSE) using web scraping techniques. The extracted data is periodically sent to an MQTT broker, allowing other systems or applications to consume and analyze it.
+This project automates the retrieval of real-time power grid data from [PSE](https://www.pse.pl) using web scraping techniques. The extracted data is sent periodically to an MQTT broker, allowing other applications to consume and analyze the current state of the power grid.
 
-Data collected from PSE:
+### Data collected from PSE includes:
 
--Power demand (MW)
--Total generation (MW)
--Generation by source:
-*Thermal
-*Hydro
-*Wind
-*Photovoltaic
--Grid frequency (Hz)
--Cross-border power exchange balance (import/export)
+- Power demand (MW)  
+- Total generation (MW)  
+- Generation by source:  
+  - Thermal  
+  - Hydro  
+  - Wind  
+  - Photovoltaic  
+- Grid frequency (Hz)  
+- Cross-border power exchange balance (import/export)  
 
+---
 
-**⚙️ Technologies Used**
+## ⚙️ Technologies Used
 
-C++17
+- C++17  
+- Web scraping libraries/tools  
+- MQTT protocol for data publishing  
+
+---
+
+## 🚀 Usage
+
+*Instructions for setup and usage can be added here.*
+
+---
+
+## 📄 License
+
+*Add license information here.*
+
+---
+
+Feel free to contribute or report issues!
+
 
 cURL – for fetching data from the PSE API
 
