@@ -32,19 +32,11 @@ This project automates the retrieval of real-time power grid data from [PSE](htt
 
 ---
 
-## 🚀 Usage
 
-*Instructions for setup and usage can be added here.*
 
 ---
 
-## 📄 License
 
-*Add license information here.*
-
----
-
-Feel free to contribute or report issues!
 
 
 cURL – for fetching data from the PSE API
